@@ -1,9 +1,6 @@
 <template>
     <div class="task-list">
       <h1>Lista de Tareas</h1>
-  
-   
-  
       <!-- Formulario para crear nuevas tareas -->
       <form @submit.prevent="createTask">
         <div class="form-group">
@@ -17,9 +14,6 @@
         </div>
         <button type="submit" class="btn btn-primary mt-2">Agregar tarea</button>
       </form>
-  
-   
-  
       <!-- Lista de tareas -->
       <ul class="list-group mt-3">
         <li 
